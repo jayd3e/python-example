@@ -11,3 +11,4 @@ waitress==0.8.8
 wsgiref==0.1.2
 zope.deprecation==4.1.0
 zope.interface==4.1.0
+-e .
