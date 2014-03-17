@@ -9,6 +9,8 @@ README = open(os.path.join(here, 'README.md')).read()
 entry_points = """
     [paste.app_factory]
     main = python_example:main
+    [console_scripts]
+    web = python_example:web
 """
 
 setup(name='python_example',
