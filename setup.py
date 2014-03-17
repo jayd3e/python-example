@@ -11,7 +11,7 @@ entry_points = """
     main = python_example:main
 """
 
-setup(name='clusterflunk',
+setup(name='python_example',
       version='0.0.0',
       description='Flynn python example.',
       long_description=README,
