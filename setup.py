@@ -14,7 +14,7 @@ entry_points = """
 """
 
 setup(name='python_example',
-      version='0.0.1',
+      version='0.0.2',
       description='Flynn python example.',
       long_description=README,
       packages=find_packages(),
