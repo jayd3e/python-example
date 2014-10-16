@@ -8,12 +8,12 @@ README = open(os.path.join(here, 'README.md')).read()
 
 entry_points = """
     [paste.app_factory]
-    main = python_example:main
+    main = chatty:main
     [console_scripts]
-    web = python_example:web
+    web = chatty:web
 """
 
-setup(name='python_example',
+setup(name='chatty',
       version='0.0.4',
       description='Flynn python example.',
       long_description=README,
